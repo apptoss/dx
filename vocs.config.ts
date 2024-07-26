@@ -9,6 +9,7 @@ export default defineConfig({
     light: '/aptos-logo-light.svg',
     dark: '/aptos-logo-dark.svg',
   },
+  ogImageUrl: 'https://vocs.dev/api/og?logo=%logo&title=%title&description=%description',
   rootDir: 'site',
   sidebar: [
     {
