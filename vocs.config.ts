@@ -1,24 +1,15 @@
 import { defineConfig } from 'vocs'
+import { sidebar } from './site/sidebar'
 
 export default defineConfig({
-  iconUrl: {
-    light: '/aptos-icon-light.svg',
-    dark: '/aptos-icon-dark.svg',
-  },
-  logoUrl: {
-    light: '/aptos-logo-light.svg',
-    dark: '/aptos-logo-dark.svg',
-  },
+  iconUrl: '/aptos-coin-3D.svg',
+  logoUrl: '/aptos-coin-3D.svg',
   ogImageUrl: 'https://vocs.dev/api/og?logo=%logo&title=%title&description=%description',
   rootDir: 'site',
-  sidebar: [
-    {
-      text: 'Getting Started',
-      link: '/getting-started',
-    },
-  ],
-  title: 'Aptos DX',
+  sidebar,
+  title: 'appToss',
   topNav: [
-    { text: 'Blog', link: '/blog' },
+    { text: 'Docs', link: '/docs/getting-started', match: '/docs' },
+    { text: 'Launch MVP', link: 'https://mvp.apptoss.dev' },
   ],
 })
