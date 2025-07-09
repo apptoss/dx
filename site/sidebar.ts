@@ -3,32 +3,14 @@ import type { Sidebar } from 'vocs'
 export const sidebar = {
   '/docs/': [
     {
-      text: 'Introduction',
+      text: 'Protocol Concepts',
       items: [
-        { text: 'Why appToss', link: '/docs/introduction' },
-        { text: 'Getting Started', link: '/docs/getting-started' },
+        { text: 'Bearium Protocol in 5 Minutes', link: '/docs/introduction' },
         { text: 'FAQ', link: '/docs/faq' },
-        { text: 'Roadmap', link: '/docs/roadmap' },
       ],
     },
     {
-      text: 'Protocol Concepts',
-      items: [],
-    },
-    {
-      text: 'appToss DAO',
-      items: [],
-    },
-    {
-      text: 'Guides',
-      items: [],
-    },
-    {
-      text: 'SDK',
-      items: [],
-    },
-    {
-      text: 'Smart Contracts',
+      text: 'Move Modules',
       items: [],
     },
     {

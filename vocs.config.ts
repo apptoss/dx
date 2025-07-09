@@ -12,7 +12,7 @@ export default defineConfig({
   sidebar,
   title: 'appToss Skin Marketplace',
   topNav: [
-    { text: 'Docs', link: '/docs/getting-started', match: '/docs' },
+    { text: 'Docs', link: '/docs/introduction', match: '/docs' },
     { text: 'Launch MVP', link: 'https://marketplace.apptoss.dev' },
   ],
 })

@@ -1,21 +1,52 @@
-# Why appToss [A brief preamble on why we built appToss]
+# Bearium Protocol in 5 Minutes
 
-*The original draft can be found [here](https://gist.github.com/wwpart33n/a6ce3db5c3f2f1e0c79c7746fde7357d) and will be eventually moved to the site.*
+## Overview
 
-## The Casino on Mars
+This marketplace is more than a frontend—it runs on **Bearium**, a settlement protocol for onchain casinos.
 
-It's useful to think of crypto as a new planet that's being settled.
+Bearium introduces a mental model 🧠 built on:
 
-Skeptics see a desolate planet without purpose. Or worse, a haven for an unsavory casino.
+- **Peers**, risk-absorbing actors that issue credits
+    
+- **Credits**, tokenized potential for trustless, time-flexible payouts
+    
+- **Clearinghouse**, a programmable OpEx engine for skins, referrals, and campaigns
+    
 
-Optimists see the planet's potential: a blank slate on which we can build an upgraded financial system and internet platform.
+Every transaction here—every fee, royalty, or reward—is powered by Bearium’s core logic.  
+**No house. No middlemen. Just credits, coordination, and code.**
 
-appToss is an infrastructure/liquidity layer for on-chain casinos. It utilizes a new Liquidity Pool design, the Friend Registry, which creates and maintains market liquidity.
+## Peers: Risk-Absorbing Actors
 
-appToss supports thousands of slots & casino games, plus a rich feature set, which can be utilized by anyone permissionlessly for the creation of various apps, embedded integrations or derivative products.
+- A _Peer_ is an autonomous object account that absorbs real assets and issues its own **Alpha Credits**.
+    
+- Peers act like **risk capacitors**, enabling P2P coordination without middlemen.
+    
+- LLN (Law of Large Numbers) makes this design viable: aggregate outcomes stabilize risk.
+    
 
-To begin, we should make clear the distinctions between the different areas of "appToss", some of which may confuse new users.
+## Credit-Centric Design
 
-- **The appToss Protocol**: A suite of upgradable smart contracts that together create a protocol which can be used permissionlessly for the creation of houses of pools & iGaming products with Fungible Assets and Coins as well as Digital Assets on the Aptos blockchain.
-- **The appToss Components**: Web components that make it quick & easy to build applications on appToss Protocol. The interface is only one of many ways one may build a dApp.
-- **appToss DAO**: A governance system for governing the appToss Protocol. The system is expected to transition and be enabled by a dedicated token, once the token is launched.
+- The system runs on **credits**—tokenized rewards that can be redeemed or traded.
+    
+- **All costs and payouts are in credits**: rewards, fees, commissions.
+    
+- Credit decouples capital _timing_ from capital _truth_.
+    
+
+## Games Define Risk Appetite
+
+- Games plug into Peers and define risk-return models via multipliers.
+    
+- A 2× coin flip? A 100× crash game? All _use the same Peer_.
+    
+- Risk fees are baked in.
+    
+
+## Clearinghouse: The OpEx Engine
+
+- A singleton **Clearinghouse** contract routes payouts through customizable hooks.
+    
+- **Agencies** are campaigns registered via hooks: skins, referrals, portals, etc.
+    
+- All hooks receive payouts in credits—programmable, traceable, fair.
