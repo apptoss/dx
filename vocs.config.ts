@@ -10,6 +10,12 @@ export default defineConfig({
   ogImageUrl: 'https://vocs.dev/api/og?logo=%logo&title=%title&description=%description',
   rootDir: 'site',
   sidebar,
+  socials: [
+    {
+      icon: 'github',
+      link: 'https://github.com/apptoss/marketplace',
+    },
+  ],
   title: 'appToss Skin Marketplace',
   topNav: [
     { text: 'Docs', link: '/docs/introduction', match: '/docs' },
