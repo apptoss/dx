@@ -1,0 +1,29 @@
+# Modules
+
+## Core Modules
+
+The core modules for the Bearium project are located at https://github.com/bearium-xyz/bearium-aptos within the `bearium` package.
+
+- `peer.move`: This module facilitates the creation of peers and their associated credit fungible assets.
+    
+- `clearinghouse.move`: This module enables agency through customizable hooks.
+    
+
+## Game Modules
+
+Game modules are currently located in `bearium/sources/alphas` within the same `bearium` package. We may adopt a register model for these modules in the future.
+
+- `toss.move`: A simple coin-flip game.
+    
+- **Plinko:** This game is currently in progress. You can track its development at https://github.com/bearium-xyz/bearium-aptos/pull/5.
+    
+
+## Operators (Origins)
+
+Operators, referred to as **origins**, can apply various operational policies.
+
+- `marketplace.move`: This module provides a reference implementation for a skin builder base, including features like royalty payments, referrals, and portal fees.
+    
+- With the adoption of [AIP-112](https://github.com/aptos-foundation/AIPs/blob/main/aips/aip-112.md), anyone can permissionlessly register their hooks.
+    
+- A separate pull request https://github.com/bearium-xyz/bearium-aptos/pull/4 is moving this reference implementation into its own package, distinct from the core `bearium` modules.

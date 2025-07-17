@@ -11,7 +11,9 @@ export const sidebar = {
     },
     {
       text: 'Move Modules',
-      items: [],
+      items: [
+        { text: 'Overview', link: '/docs/modules' },
+      ],
     },
     {
       text: 'Glossary',
